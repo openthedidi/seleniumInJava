@@ -1,4 +1,4 @@
-package com.selenium.pratice;
+package com.selenium.pratice.browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
