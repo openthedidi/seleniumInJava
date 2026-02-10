@@ -31,6 +31,10 @@ public class LocatorBasicDemo {
         WebElement pollAnswer1Label = chromeDrive.findElement(By.cssSelector("label[for='pollanswers-1']"));
         System.out.println(pollAnswer1Label.getText());
 
+        WebElement pollAnswer2Label = chromeDrive.findElement(By.xpath("//li[@class='answer'][2]//label"));
+        System.out.println(pollAnswer2Label.getText());
+
+
 
         List<WebElement> aElementList = chromeDrive.findElements(By.tagName("a"));
         System.out.println(aElementList.size());
