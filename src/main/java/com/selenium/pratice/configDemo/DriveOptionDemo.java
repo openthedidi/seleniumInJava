@@ -1,4 +1,4 @@
-package com.selenium.pratice;
+package com.selenium.pratice.configDemo;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
